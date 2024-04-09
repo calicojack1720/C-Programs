@@ -1,0 +1,1 @@
+These are C++ programs that I have worked on whetehr as part of a course or on my own. Topics covered include if statements, while loops, for loops, arrays, vectors, structs, classes, and linked lists.
