@@ -1,0 +1,57 @@
+#include "ExamClass.h"
+
+//ExamClass member functions:
+//constructors:
+ExamClass::ExamClass() {
+	studentName = "NA";
+	exam1Score = 0.0;
+	exam2Score = 0.0;
+	exam3Score = 0.0;
+	studentAverage = 0.0;
+	next = NULL;
+}
+
+ExamClass::ExamClass(float e1Score, float e2Score, float e3Score, std::string name) {
+	exam1Score = e1Score;
+	exam2Score = e2Score;
+	exam3Score = e3Score;
+	studentName = name;
+	computeStudentAverage();
+	next = NULL;
+}
+
+//destructor:
+ExamClass::~ExamClass() {
+	std::cout << "Removed " << studentName << std::endl;
+}
+
+//setters:
+void ExamClass::setStudentName(std::string name) { studentName = name; }
+void ExamClass::setExam1(float e1Score) {
+	exam1Score = e1Score;
+	computeStudentAverage();
+}
+void ExamClass::setExam2(float e2Score) {
+	exam2Score = e2Score;
+	computeStudentAverage();
+}
+void ExamClass::setExam3(float e3Score) {
+	exam3Score = e3Score;
+	computeStudentAverage();
+}
+void ExamClass::setNext(ExamClass* node) {
+	next = node;
+}
+
+//getters:
+std::string ExamClass::getStudentName() { return studentName; }
+float ExamClass::getExam1() { return exam1Score; }
+float ExamClass::getExam2() { return exam2Score; }
+float ExamClass::getExam3() { return exam3Score; }
+float ExamClass::getStudentAverage() { return studentAverage; }
+ExamClass* ExamClass::getNext() { return next; }
+
+//helper function:
+void ExamClass::computeStudentAverage() {	//average the student's exam scores
+	studentAverage = (exam1Score + exam2Score + exam3Score) / 3;
+}

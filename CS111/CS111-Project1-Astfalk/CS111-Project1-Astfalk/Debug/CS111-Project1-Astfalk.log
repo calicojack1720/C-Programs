@@ -1,0 +1,4 @@
+﻿  CS111-Project1-Astfalk.cpp
+C:\Users\mtast\OneDrive - Saint Vincent College\Semester 2\Programming II\CS111-Project1-Astfalk\CS111-Project1-Astfalk\CS111-Project1-Astfalk.cpp(42,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\mtast\OneDrive - Saint Vincent College\Semester 2\Programming II\CS111-Project1-Astfalk\CS111-Project1-Astfalk\CS111-Project1-Astfalk.cpp(95,12): warning C4305: '*=': truncation from 'double' to 'float'
+  CS111-Project1-Astfalk.vcxproj -> C:\Users\mtast\OneDrive - Saint Vincent College\Semester 2\Programming II\CS111-Project1-Astfalk\Debug\CS111-Project1-Astfalk.exe

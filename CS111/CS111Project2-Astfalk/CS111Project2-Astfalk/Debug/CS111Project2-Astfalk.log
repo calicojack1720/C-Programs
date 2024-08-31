@@ -1,0 +1,3 @@
+﻿  CS111Project2-Astfalk.cpp
+C:\Users\mtast\OneDrive - Saint Vincent College\Semester 2\Programming II\CS111Project2-Astfalk\CS111Project2-Astfalk\CS111Project2-Astfalk.cpp(38,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CS111Project2-Astfalk.vcxproj -> C:\Users\mtast\OneDrive - Saint Vincent College\Semester 2\Programming II\CS111Project2-Astfalk\Debug\CS111Project2-Astfalk.exe

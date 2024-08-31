@@ -1,0 +1,5 @@
+BGuster 89.5 95.5 93.0
+SSpencer 78.5 75.5 71.0
+MScott 97.5 90.5 98.0
+RHoward 76.5 66.0 81.5
+DSchrute 87.5 89.0 92.0
